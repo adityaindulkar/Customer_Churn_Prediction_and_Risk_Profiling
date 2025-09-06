@@ -42,9 +42,9 @@ A machine learning system that predicts customer churn and identifies high-risk 
 ### Feature Importance:
 **Most Important Features Across Models:**
 - Contract type
-- Tenure (binned)
+- Tenure
 - Fiber optic + No tech support combination
-- Monthly/Total charges (binned)
+- Monthly/Total charges
 
 ## 🛠️ Installation
 
