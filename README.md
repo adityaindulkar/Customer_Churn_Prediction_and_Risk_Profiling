@@ -46,6 +46,17 @@ A machine learning system that predicts customer churn and identifies high-risk 
 - Fiber optic + No tech support combination
 - Monthly/Total charges
 
+### The system provides:
+- **Probability Score**: 0-1 churn likelihood
+- **Binary Prediction**: Churn/No Churn classification  
+- **Risk Level**: High/Medium/Low categorization
+- **Actionable Insight**: Immediate attention recommendations
+  
+### Example Output
+Churn Probability: 0.788         
+Prediction: Churn          
+Risk Level: High
+
 ## 🛠️ Installation
 
 1. **Clone the repository**
