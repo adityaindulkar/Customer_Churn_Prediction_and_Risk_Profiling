@@ -9,7 +9,7 @@ A machine learning system that predicts customer churn and identifies high-risk 
 - **Threshold Optimization**: Custom threshold tuning for optimal performance
 - **Risk Profiling**: Identifies high-risk customer segments
 - **Production Ready**: Pre-trained model loading for fast predictions.
-- **Predictions**: Seperate predictions.py file to make predictions based on saved models. 
+- **Predictions**: Seperate predictions.py file to make predictions based on saved models and custom user inputs. 
 
 ## Model Performance Results
 
