@@ -1,0 +1,28 @@
+1. Model Performance
+  Random Forest: 62% precision, 71% recall, F1-score 0.67 (threshold: 0.603)
+  Gradient Boosting: 62% precision, 72% recall, F1-score 0.66 (threshold: 0.377)
+  XGBoost: 60% precision, 71% recall, F1-score 0.65 (threshold: 0.614)
+All models effectively identify churners (~71% recall) but with moderate precision (~62%). Gradient Boosting offers the best balance for retention campaigns. The Recall was deliberately kept high to catch most of the churners so that proper actionable measures can be applied.
+
+2. Key Predictors of Churn
+  Contract Type: Month-to-month contracts have a 42.7% churn rate (3.8x more likely to churn than 1-year customers and 15.1x higher than 2-year contracts).
+  Tenure: Customers with 0-12 months tenure show 48.3% churn risk and contribute 53.5% of total churn.
+  Service Type: Fiber optic users without tech support churn at 49.4%.
+These key predictors were the most important features derived from the ML models trained.
+
+3. High-Risk Customer Profile
+  Customers with all three risk factors (month-to-month contract, <12 months tenure, fiber optic without tech support) have a 71.6% churn rate. This group warrants prioritized intervention.
+
+4. Critical Insights Gained
+  Month to Month and customers with low tenure more likely to churn. This directly impacts the business in the longer run down the years.
+  Fiber Optic users without tech support: Nearly half the customers churn.
+  Fiber Optic service needs improvement because why does the customer need tech support? If the customer needs tech support often then there is a need in improvement of the service itself. Churning maybe because of constant faults and cuts in internet service.
+
+5. Recommended Business Actions
+  Contract Incentives: Convert month-to-month to annual contracts and 2-year contracts via discounts.
+  Tenure-Based Engagement: Providing special offers for customers every 3 months to award their loyalty would keep them happy.
+  Service Bundling: Include complimentary tech support for fiber optic users during initial 6 months and charge a minimal fee later on.
+  Targeted Retention: Assign account managers to high-risk customers for personalized retention efforts. Setup constant calling and checking in on customers in high churn risk zone to solve their problems and reduce churning
+
+Conclusion
+Focus retention efforts on month-to-month customers, new users (<12 months), and fiber optic subscribers without support. Gradient Boosting is the optimal model for identifying at-risk accounts. Proactive measures in the first year can significantly reduce churn volume and stabilize revenue.
