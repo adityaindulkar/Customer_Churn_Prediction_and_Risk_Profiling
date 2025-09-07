@@ -60,10 +60,3 @@ This project developed a predictive churn model using machine learning (Random F
 Churn Probability: 0.788         
 Prediction: Churn          
 Risk Level: High
-
-## 🛠️ Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/adityaindulkar/Customer_Churn_Prediction_and_Risk_Profiling.git
-   cd Customer_Churn_Prediction_and_Risk_Profiling
