@@ -1,6 +1,10 @@
 # Customer Churn Prediction and Risk Profiling
 
-A machine learning system that predicts customer churn and identifies high-risk customer profiles using Random Forest, Gradient Boosting, and XGBoost.
+This project developed a predictive churn model using machine learning (Random Forest, Gradient Boosting, and XGBoost) to identify high-risk customers. Feature engineering revealed key drivers including contract type, tenure, and service combinations, with month-to-month fiber optic customers showing 71.6% churn risk. The model achieved 81% accuracy with optimized thresholds to maximize recall for business implementation.
+
+## Tech Stack: 
+### Python (Numpy, Pandas, Scikit-Learn, Matplotlib)
+
 
 ## Features
 
